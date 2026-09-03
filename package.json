@@ -1,0 +1,26 @@
+{
+  "name": "cadeira_dsw_2026.1",
+  "version": "1.0.0",
+  "description": "Repositório para a cadeira de Desenvolvimento Web",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pedro-Maciel-21/cadeira_dsw_2026.1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Pedro-Maciel-21/cadeira_dsw_2026.1/issues"
+  },
+  "homepage": "https://github.com/Pedro-Maciel-21/cadeira_dsw_2026.1#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}

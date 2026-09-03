@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Fruits · Hortifrúti em Quixeramobim</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header-content">
+            <div class="logo-area">
+                <h1 class="logo-text">Fruits</h1>
+            </div>
+            
+            <nav aria-label="Menu principal">
+                <ul class="nav-menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            
+            <div class="user-actions">
+                <button class="btn-icon" id="carrinho-btn">
+                    <i class="fas fa-shopping-cart"></i> Carrinho <span class="cart-badge" id="carrinho-badge">0</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <!-- HOME -->
+    <section id="home" class="page">
+        <div class="container">
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h2>Bem-vindo ao Fruits!</h2>
+                    <p class="hero-subtitle">O sistema Fruits é loja de venda de frutas, legumes e verduras online de um comércio local de Quixeramobim. O principal objetivo é agilizar o processo de encomendar frutas, legumes e verduras, sem necessidade de ter que esperar um atendente. Fazendo suas encomendas com base nos produtos disponíveis.</p>
+                    <a href="#produtos" class="btn-hero">Ver nossos produtos</a>
+                </div>
+                <div class="hero-figure">
+                    <figure>
+                        <img data-src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=600&auto=format&fit=crop&q=60" alt="Frutas frescas em uma banca de feira">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos" class="page">
+        <div class="container">
+            <div class="catalogo">
+                <h2>Catálogo de Produtos</h2>
+                <p class="section-subtitle">Selecionados com cuidado direto dos produtores locais</p>
+                <div id="produtos-container" class="grid-produtos"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="page">
+        <div class="container">
+            <div class="sobre-section">
+                <h2>Sobre o Fruits</h2>
+                <div class="sobre-content">
+                    <div class="sobre-texto">
+                        <h3>Nossa História</h3>
+                        <p>O Fruits nasceu do sonho de levar produtos frescos e de qualidade para as mesas das famílias de Quixeramobim. Começamos como uma pequena barraca na feira livre e hoje somos referência em hortifrúti na região.</p>
+                        <p>Trabalhamos com mais de 20 produtores locais, garantindo que você receba alimentos colhidos no ponto certo de maturação.</p>
+                        <h3>Nossos Valores</h3>
+                        <ul>
+                            <li>Sustentabilidade e respeito ao meio ambiente</li>
+                            <li>Parceria justa com produtores locais</li>
+                            <li>Amor pelo que fazemos</li>
+                            <li>Compromisso com a qualidade</li>
+                        </ul>
+                    </div>
+                    <div class="sobre-figure">
+                        <figure>
+                            <img data-src="https://images.unsplash.com/photo-1619566636858-adf3ef46400b?q=80&w=1170&auto=format&fit=crop" alt="Produtores locais colhendo frutas">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="page">
+        <div class="container">
+            <div class="servicos-section">
+                <h2>Nossos Serviços</h2>
+                <p class="section-subtitle">Facilitamos sua vida para você comer melhor</p>
+                
+                <div class="grid-servicos">
+                    <article class="card-servico">
+                        <div class="servico-icon"><i class="fa-solid fa-truck"></i></div>
+                        <h3>Entrega em domicílio</h3>
+                        <p>Receba seus produtos no conforto da sua casa. Entregamos em toda a área urbana de Quixeramobim com taxa fixa de R$ 5,00.</p>
+                        <figure class="servico-figure">
+                            <img data-src="https://images.unsplash.com/photo-1617347454431-f49d7ff5c3b1?w=600&auto=format&fit=crop&q=60" alt="Entrega de frutas em domicílio">
+                        </figure>
+                    </article>
+
+                    <article class="card-servico">
+                        <div class="servico-icon"><i class="fa-solid fa-store"></i></div>
+                        <h3>Retirada na loja</h3>
+                        <p>Prefere vir buscar? Faça seu pedido online e retire em nossa loja, sem taxa adicional. Garantimos produtos de qualidade.</p>
+                        <figure class="servico-figure">
+                            <img data-src="https://plus.unsplash.com/premium_vector-1682306836662-1d636aec5968?q=80&w=1170&auto=format&fit=crop" alt="Loja física Fruits">
+                        </figure>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="page">
+        <div class="container">
+            <div class="contato-section">
+                <h2>Fale Conosco</h2>
+                <p class="section-subtitle">Estamos aqui para atender você</p>
+                
+                <div class="contato-grid">
+                    <div class="info-contato">
+                        <div class="info-card">
+                            <div class="icone"><i class="fas fa-location-dot"></i></div>
+                            <h3>Endereço</h3>
+                            <p>Rua Cícero Alencar Araripe, 123<br>Centro, Quixeramobim - CE</p>
+                        </div>
+                        <div class="info-card">
+                            <div class="icone"><i class="fas fa-phone"></i></div>
+                            <h3>Telefone / WhatsApp</h3>
+                            <p>(88) 9999-1234</p>
+                            <p>(88) 98888-5678</p>
+                        </div>
+                        <div class="info-card">
+                            <div class="icone"><i class="fas fa-envelope"></i></div>
+                            <h3>E-mail</h3>
+                            <p>contato@fruits.com.br</p>
+                            <p>vendas@fruits.com.br</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4><i class="fa-solid fa-apple-whole"></i> Fruits</h4>
+                <p><i class="fas fa-location-dot"></i> Hortifrúti direto da feira de Quixeramobim, CE</p>
+                <p><i class="fa-solid fa-heart"></i> Frescor local, sabor e tecnologia</p>
+            </div>
+            <div class="footer-section">
+                <h4><i class="fa-regular fa-clock"></i> Horário de Funcionamento</h4>
+                <p><i class="fa-regular fa-calendar"></i> Segunda a Sexta: 8h às 17h</p>
+                <p><i class="fa-regular fa-calendar"></i> Sábado e domingo: 8h às 12h</p>
+            </div>
+            <div class="footer-section">
+                <h4><i class="fa-solid fa-at"></i> Redes Sociais</h4>
+                <p><i class="fa-brands fa-instagram"></i> Instagram: @fruits_quitx</p>
+                <p><i class="fa-brands fa-facebook"></i> Facebook: /fruits.quitx</p>
+                <p><i class="fa-brands fa-whatsapp"></i> WhatsApp: (88) 9999-1234</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="carrinho-modal" class="modal">
+    <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <h2>Seu Carrinho</h2>
+        <div id="carrinho-lista"></div>
+        <div id="carrinho-total">Total: R$ 0,00</div>
+        <button id="limpar-carrinho" class="btn-limpar">Limpar Carrinho</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
